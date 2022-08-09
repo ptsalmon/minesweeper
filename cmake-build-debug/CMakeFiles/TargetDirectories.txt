@@ -1,0 +1,7 @@
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/Tile.dir
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/Button.dir
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/Toolbox.dir
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/GameState.dir
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/CMakeFiles/minesweeper.dir

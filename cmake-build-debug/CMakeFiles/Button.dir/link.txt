@@ -1,0 +1,2 @@
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe qc libButton.a CMakeFiles/Button.dir/Button.cpp.obj
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ranlib.exe libButton.a

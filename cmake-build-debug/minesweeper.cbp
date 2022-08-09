@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minesweeper"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Libraries\;CMake Files\..\..\..\..\Libraries\SFML-2.5.1\;CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\;CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tile">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libTile.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tile"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tile/fast">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libTile.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tile/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Button">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libButton.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Button"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Button/fast">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libButton.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Button/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Toolbox">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libToolbox.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Toolbox"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Toolbox/fast">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libToolbox.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Toolbox/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameState">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libGameState.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameState"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameState/fast">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/libGameState.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameState/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minesweeper">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/minesweeper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 minesweeper"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minesweeper/fast">
+				<Option output="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/minesweeper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Libraries/SFML-2.5.1/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 minesweeper/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ptssk/CLionProjects/minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/Button.cpp">
+			<Option target="Button"/>
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/Button.h">
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/GameState.cpp">
+			<Option target="GameState"/>
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/GameState.h">
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/Tile.cpp">
+			<Option target="Tile"/>
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/Tile.h">
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/Toolbox.cpp">
+			<Option target="Toolbox"/>
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/Toolbox.h">
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/minesweeper.cpp">
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/minesweeper.h">
+			<Option target="minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/../../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/../../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/../../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/../../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/../../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ptssk/CLionProjects/minesweeper/../../../../Libraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

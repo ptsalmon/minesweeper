@@ -1,0 +1,2 @@
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe qc libToolbox.a CMakeFiles/Toolbox.dir/Toolbox.cpp.obj
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ranlib.exe libToolbox.a

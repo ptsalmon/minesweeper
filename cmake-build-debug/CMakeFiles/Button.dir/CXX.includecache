@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ptssk/CLionProjects/minesweeper/Button.cpp
+Button.h
+C:/Users/ptssk/CLionProjects/minesweeper/Button.h
+
+C:/Users/ptssk/CLionProjects/minesweeper/Button.h
+

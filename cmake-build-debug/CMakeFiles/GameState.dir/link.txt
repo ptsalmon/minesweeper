@@ -1,0 +1,2 @@
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe qc libGameState.a CMakeFiles/GameState.dir/GameState.cpp.obj
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ranlib.exe libGameState.a

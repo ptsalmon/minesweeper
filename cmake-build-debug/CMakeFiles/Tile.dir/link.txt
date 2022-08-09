@@ -1,0 +1,2 @@
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe qc libTile.a CMakeFiles/Tile.dir/Tile.cpp.obj
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ranlib.exe libTile.a
